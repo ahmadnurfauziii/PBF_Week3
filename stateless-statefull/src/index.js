@@ -1,13 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
 import HelloComponent from './component/HelloComponent';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+
+import Blogspot from "./container/Blogspot/Blogspot";
+
 ReactDOM.render(
   // <Test />,  
-  <HelloComponent />,  
+  <Blogspot />,  
   document.getElementById('root')
 );
 
