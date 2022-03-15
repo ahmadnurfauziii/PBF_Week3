@@ -12,7 +12,7 @@ import Blogspot from "./container/Blogspot/Blogspot";
 ReactDOM.render(
   // <Test />,  
   <Blogspot />,  
-  document.getElementById('root')
+  document.getElementById('content')
 );
 
 // If you want to start measuring performance in your app, pass a function
