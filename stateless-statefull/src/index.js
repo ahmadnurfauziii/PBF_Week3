@@ -5,13 +5,14 @@ import './index.css';
 import HelloComponent from './component/HelloComponent';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import PostMahasiswa from "./container/PostMahasiswa/PostMahasiswa"
 
 
 import Blogspot from "./container/Blogspot/Blogspot";
 
 ReactDOM.render(
   // <Test />,  
-  <Blogspot />,  
+  <PostMahasiswa />,  
   document.getElementById('content')
 );
 
